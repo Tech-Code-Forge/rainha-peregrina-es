@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="4" height="24" viewBox="0 0 4 24">
+  <g id="menu-dots-vertical" transform="translate(-10)">
+    <circle id="Elipse_8" data-name="Elipse 8" cx="2" cy="2" r="2" transform="translate(10)" fill="#015287"/>
+    <circle id="Elipse_9" data-name="Elipse 9" cx="2" cy="2" r="2" transform="translate(10 10)" fill="#015287"/>
+    <circle id="Elipse_10" data-name="Elipse 10" cx="2" cy="2" r="2" transform="translate(10 20)" fill="#015287"/>
+  </g>
+</svg>

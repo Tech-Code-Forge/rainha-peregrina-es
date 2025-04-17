@@ -1,0 +1,107 @@
+import Button from '@/components/button'
+import HeaderPagesRepresentative from '@/components/representative/headerPagesRepresentative'
+import { Printer } from 'lucide-react'
+
+export default function CustomerPortfolioDetail() {
+  return (
+    <main className="px-5 md:px-0 pt-10 pb-52 mx-auto max-w-5xl">
+      <HeaderPagesRepresentative
+        title="Carteira de Clientes"
+        hasBackButton
+        actionButton={
+          <Button variant="text">
+            <Printer />
+            Imprimir
+          </Button>
+        }
+      />
+
+      <div className="mt-8 text-text space-y-4">
+        <div className="grid grid-cols-3 gap-4 border border-primary rounded-[20px] p-4">
+          <div className="flex flex-col gap-2">
+            <span className="text-primary text-xs">Nome</span>
+            <span>Maria Betânia</span>
+          </div>
+          <div className="flex flex-col gap-2">
+            <span className="text-primary text-xs">Rua</span>
+            <span>Nome da Rua</span>
+          </div>
+          <div className="flex flex-col gap-2">
+            <span className="text-primary text-xs">Número do Pedido</span>
+            <span>000000</span>
+          </div>
+          <div className="flex flex-col gap-2">
+            <span className="text-primary text-xs">Sobrenome</span>
+            <span>da Silva</span>
+          </div>
+          <div className="flex gap-4">
+            <div className="flex flex-col gap-2">
+              <span className="text-primary text-xs">Cidade</span>
+              <span>Nome da Cidade</span>
+            </div>
+            <div className="flex flex-col gap-2">
+              <span className="text-primary text-xs">Estado</span>
+              <span>UF</span>
+            </div>
+          </div>
+          <div className="flex flex-col gap-2">
+            <span className="text-primary text-xs">Tamanho da Camisa</span>
+            <span>M</span>
+          </div>
+
+          <div className="flex flex-col gap-2">
+            <span className="text-primary text-xs">País de Residência</span>
+            <span>Brasil</span>
+          </div>
+          <div className="flex gap-4">
+            <div className="flex flex-col gap-2">
+              <span className="text-primary text-xs">CEP</span>
+              <span>00000-000</span>
+            </div>
+            <div className="flex flex-col gap-2">
+              <span className="text-primary text-xs">Número</span>
+              <span>00</span>
+            </div>
+          </div>
+          <div className="flex flex-col gap-2">
+            <span className="text-primary text-xs">Problema de Saúde</span>
+            <span>Hipertensa</span>
+          </div>
+
+          <div className="flex flex-col gap-2">
+            <span className="text-primary text-xs">CPF</span>
+            <span>000.000.000-00</span>
+          </div>
+          <div className="flex flex-col gap-2">
+            <span className="text-primary text-xs">Forma de Pagamento</span>
+            <span>Cartão de Crédito</span>
+          </div>
+          <div className="flex flex-col gap-2">
+            <span className="text-primary text-xs">Companheiro de quarto</span>
+            <span>1</span>
+          </div>
+
+          <div className="flex flex-col gap-2">
+            <span className="text-primary text-xs">Data de Nascimento</span>
+            <span>00 - Mês - 00</span>
+          </div>
+          <div className="flex flex-col gap-2">
+            <span className="text-primary text-xs">Nº do Cartão</span>
+            <span>**** **** **** 3456</span>
+          </div>
+        </div>
+
+        <div className="flex flex-col gap-4 border border-primary rounded-[20px] p-4">
+          <div className="flex flex-col gap-2">
+            <span className="text-primary text-xs">E-mail</span>
+            <span>mariabetania@gmail.com</span>
+          </div>
+          <div className="flex flex-col gap-2">
+            <span className="text-primary text-xs">Telefone 1</span>
+            <span>0xx81 99999-9999</span>
+          </div>
+        </div>
+      </div>
+    </main>
+  )
+}
